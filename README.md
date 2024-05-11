@@ -262,6 +262,24 @@ Mande executar DEPLOY
 
 ![48098978-79214e0a2541429040e68a101b3f44d9](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/a3ae51ba-894f-4c36-b185-555c284227a7)
 
+Clique no Icone para abrir Typebot, coloque email cadastrado no SMTP, recebera link em seu email, para accessa Typebot
+
+![48099001-7406354be1635d5a0f827411729b083c](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/f11193c7-91f5-4422-8f94-c348c9990fee)
+
+Acesse Evolution crie uma instâcia e conecte seu numero de telefone
+
+Adicione informações abaixo, token e token do profile do Chatwoot
+
+
+![image](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/b339aa4d-b79f-4464-87ad-b3a74c476c01)
+
+![image](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/c3bcbe5a-dd89-4356-bae9-084bb1bd397f)
+
+Adicione informações abaixo do Typebot, usando url https://viewer.dominio.easypanel.host
+
+Importe Fluxo que vai usar em seu Typebot antes
+
+![image](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/19d326bd-1077-4b58-bd25-4e5050b858c4)
 
 **Pronto tudo Funcionando** ✅😎
 
