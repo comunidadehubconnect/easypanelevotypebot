@@ -193,5 +193,79 @@ AUTHENTICATION_INSTANCE_CHATWOOT_TOKEN=123456
 AUTHENTICATION_INSTANCE_CHATWOOT_URL=<url>
 ```
 
+Depois disso clique em salvar 
+
 ![48098698-f2253d35287f26f70eba1a6c02563179](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/f2aae6ff-abbd-4a4a-9610-a2fea92c1f82)
+
+Em dominio mude porta para 8080, salve novamente, em seguida clique em deploy
+
+![48098832-882078f9ae0fc77d2c15576e8ec78174](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/2ea3e3c8-5364-4d7c-b3b4-dcffc60c2411)
+
+![48098850-3c262820d7c0612545210e4e79cfcaf8](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/0c081e64-3665-428c-9b31-bbca9c5e9eef)
+
+Pronto Evolution ja esta no ar, basta cricar link abaixo para ver url
+
+![48098857-222704fd2c9468ffba0bb02bc913a57e](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/6c8595ed-5617-413b-814f-5f89189951dc)
+
+Vamos instalar Typebot, para isso precisamos saber dominio do Easypanel nos forneceu, clique em configurações, agora copie essa url, vamos precisar dela mais abaixo
+
+![48098885-8133438cef3bbfa9b5c5f50c98779233](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/f7e114d8-6853-4356-a52b-3c27fcaf55ab)
+
+Vamos na aba Templates, localize Typebot clique em cima dele
+
+![48098867-1f193bf0502665271ad9a61741724f5a](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/656d552f-4152-4670-8424-837c3edf0fb0)
+
+![48098877-369c271a9da0a7a8e8a1bc22806dbf2e](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/e0243b00-9bdc-48a3-8ab1-8cea763a89d7)
+
+Dois campos abaixo vai colocar 
+
+```bash
+https://builder.dominio.easypanel.host
+```
+
+```bash
+https://viewer.dominio.easypanel.host
+```
+
+![48098918-e15e56041dbfe36ba6c11bf276b5e8f4](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/2d41d589-35d7-4544-aa98-db9790f534cc)
+
+Em Github Client ID* e Github Client ID* coloque qualquer coisa, não vamos usa-lo, lugar usaremos smtp
+
+![48098946-9a7bc558b3fed0bc871f4dee67392da8](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/536468b9-6f19-418d-abac-ab7e482ce9d5)
+
+Em Environment adicione variaveis de SMTP no final de parecer com esse
+
+```bash
+DATABASE_URL=postgres://postgres:c298a1247ecaee9df640@$(PROJECT_NAME)_typebot-db:5432/$(PROJECT_NAME)
+NEXTAUTH_URL=https://builder.dominio.easypanel.host
+NEXT_PUBLIC_VIEWER_URL=https://viewer.dominio.easypanel.host
+ENCRYPTION_SECRET=be13eedd3c063fd099175d65ab5f304b
+ADMIN_EMAIL=contato@dominio.com.br
+DISABLE_SIGNUP=false
+ADMIN_EMAIL=contato@dominio.com.br
+NEXT_PUBLIC_SMTP_FROM='Suporte' <contato@dominio.com.br>
+SMTP_AUTH_DISABLED=false
+SMTP_USERNAME=contato@dominio.com.br
+SMTP_PASSWORD=SenhadSMTP
+SMTP_HOST=smtp.dominio.com.br
+SMTP_PORT=465
+SMTP_SECURE=true
+S3_ACCESS_KEY=minio
+S3_SECRET_KEY=1c79420ac1dd742d625d
+S3_BUCKET=typebot
+S3_ENDPOINT=http://$(PROJECT_NAME)_typebot-minio:9000
+```
+
+![48098960-e885495cf9ec690ba46f0b97068008fa](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/8080e201-f15c-40d6-99f4-55886298baf2)
+
+Mande executar DEPLOY
+
+![48098978-79214e0a2541429040e68a101b3f44d9](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/a3ae51ba-894f-4c36-b185-555c284227a7)
+
+
+**Pronto tudo Funcionando** ✅😎
+
+
+
+
 
