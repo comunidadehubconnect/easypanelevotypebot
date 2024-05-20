@@ -12,6 +12,12 @@
 <hr />
 <hr />
 
+## Comando para Instalar EasyPanel
+
+```bash
+curl -sSL https://get.easypanel.io | sh
+```
+
 Crie Projects
 
 ![48098512-1c18b7b28300a0bfa7a21c97deb109fe](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/aaad7bdb-64f3-480f-a311-098fc3ca8220)
