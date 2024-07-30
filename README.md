@@ -285,6 +285,15 @@ Importe Fluxo que vai usar em seu Typebot antes
 
 ![image](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/19d326bd-1077-4b58-bd25-4e5050b858c4)
 
+
+## Ajuste adicional
+
+No adicionar URL na variável do Chatwoot Sidekiq, depois mande fazer DEPLOY
+
+![image](https://github.com/user-attachments/assets/cf4506f8-9ba0-4112-815c-38ee26b56d3d)
+
+FRONTEND_URL=https://www.meu.com.br
+
 **Pronto tudo Funcionando** ✅😎
 
 
