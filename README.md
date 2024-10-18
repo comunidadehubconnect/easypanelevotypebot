@@ -85,7 +85,7 @@ Coloque nome evolution
 Na aba abaixo clique em Docker Image e adicione Imagem abaixo, depois salve
 
 ```bash
-atendai/evolution-api:latest
+atendai/evolution-api:v1.8.2
 ```
 
 ![48098680-cb32525d28f33a65a9085a8a006b6779](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/95e6052e-8c1a-429a-b7ad-ee031b5954a5)
