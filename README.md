@@ -25,6 +25,8 @@ Adicione nome de Project
 
 ![48098522-0c485df00f5cadb0d329061c35fee46c](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/b72c1359-91ca-4bf6-9fb1-32525ba5747b)
 
+## Vamos Instalar Chatwoot
+
 Clique na aba Templates
 
 ![48098535-90f9b4f370bb8b06cfd7e4acf0ee0f97](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/03c1830c-621c-40b3-94ee-93eb568c8d2e)
@@ -61,7 +63,7 @@ No adicionar URL na variável do Chatwoot Sidekiq, depois mande fazer DEPLOY
 
 FRONTEND_URL=https://www.meu.com.br
 
-Clique na aba Templates instalar Evolution
+## Clique na aba Templates instalar Evolution
 
 ![48098535-90f9b4f370bb8b06cfd7e4acf0ee0f97](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/03c1830c-621c-40b3-94ee-93eb568c8d2e)
 
@@ -91,7 +93,7 @@ Nessa tela adicione API Global
 ![image](https://github.com/user-attachments/assets/e925dbef-b419-45c2-91d6-0d3e65390682)
 
 
-Vamos na aba Templates, localize Typebot clique em cima dele
+## Vamos na aba Templates, localize Typebot clique em cima dele
 
 ![48098867-1f193bf0502665271ad9a61741724f5a](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/656d552f-4152-4670-8424-837c3edf0fb0)
 
