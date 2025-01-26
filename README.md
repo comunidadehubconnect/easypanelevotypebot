@@ -40,7 +40,7 @@ Nessa tela troque idioma e Imagem docker, clique me Create
 ![48098583-e5b73cced4eb56836a2b2c18645c442c](https://github.com/cwmkt/easypanelevotypebot/assets/91642837/2e88be4b-75bf-4b8e-810f-21db54c7b3a9)
 
 ```bash
-chatwoot/chatwoot:latest
+chatwoot/chatwoot:v3.16.0
 ```
 
 ```bash
